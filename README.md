@@ -1,7 +1,7 @@
 <div align="center">
 
 # 💘 cupidcr4wl 💘
-cupidcr4wl is an Open-Source Intelligence username search tool that crawls adult content platforms to see if a targeted account or person is present. The need for a tool of this manner derived from missing persons investigations where dating platforms and concerns of human trafficking were found relevant. cupidcr4wl searches the following categories of platforms:
+cupidcr4wl is an Open-Source Intelligence username search tool that crawls adult content platforms to see if a targeted account or person is present. The need for a tool of this manner derived from missing persons investigations where dating platforms and concerns of human trafficking were found relevant. cupidcr4wl searches the following platforms:
 
 **Adult photo, video, and camming platforms | Dating, hook-up, and social platforms | Escort service platforms**
 
