@@ -92,7 +92,7 @@ def check_single_site(username, site, info, user_agents, write_to_file=None, deb
                     matched_items = ", ".join(matching_not_found_texts)
                     message += f" [cyan](Matched not_found_text items: {matched_items})[/cyan]"
             else:
-                message = f"[yellow]Possible account found on {site}: {url}{response_code}.[/yellow]"
+                message = f"[yellow]Possible account found on {site}: {url}{response_code}[/yellow]"
         else:
             message = f"[red]No account found on {site}.{response_code}[/red]"
             if debug and matching_not_found_texts:
