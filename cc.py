@@ -170,7 +170,7 @@ def print_sites(file_path='websites.json'):
     try:
         with open(file_path, 'r') as file:
             data = json.load(file)
-            console.print("\n[bold blue]Available Sites and URLs:[/bold blue]")
+            console.print("\n[bold blue]Sites and URLs searched by cupidcr4wl:[/bold blue]")
             for site, info in data['websites'].items():
                 url = info.get("url", "No URL available")
                 console.print(f"- {site}: {url}")
