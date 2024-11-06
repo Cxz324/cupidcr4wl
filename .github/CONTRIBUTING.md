@@ -1,6 +1,8 @@
 <div align="center">
   
-# ❤️ Thank you for taking the time to contribute! ❤️
+# 🌟 Thank you for taking the time to contribute! 🌟
+
+>**NOTE:** Not all platforms are able to be crawled by cupidcr4wl. Some platforms may produce html code that is identical accross different pages, thus the changes being rendered via Javascript. These pages are unable to be crawled by cupidcr4wl code.
 
 There are two main ways you can contribute platforms to add to the cupidcr4wl search list:
 </div>
@@ -26,6 +28,18 @@ If you choose this route, the json format must follow the following syntax:
             "category": "the category of the platform"
 ```
 
+### Platform
+Enter the name of the platform that cupidcr4wl will search:
+```
+},
+        "Name of Platform": {
+```
+
+### URL
+Enter the URL path to an account or search:
+
+```"url": "https://www.example.com/path/to/{username}",```
+
 ### check_text
 The ```check_text``` and ```not_found_text``` feature in cupidcr4wl parses the html of the pages it searches to look for specific html code snippets present on a valid account page. This helps with the accuracy of the tool. To parse html code,
 1. Go to a valid account page.
@@ -39,7 +53,7 @@ Multiple html snippets can be added to this section using commas:
 ```
 "check_text": [
   "followers",
-  "subscripe",
+  "subscribe",
   "profile"
 ],
 ```
@@ -53,10 +67,19 @@ Inversely, not_found_text are html code snippets that are **NOT** found on a val
 Multiple html snippets can be added to this section using commas:
 ```
 "not_found_text": [
-"404",
-"page not found",
-"sorry that profile doesn't exist"
+  "404",
+  "page not found",
+  "sorry that profile doesn't exist"
 ],
 ```
 
 You can see examples of html parsed code snippets used for the purposes of ```check_text``` and ```not_found_text``` in the [websites.json](https://github.com/OSINTI4L/cupidcr4wl/blob/main/websites.json) file.
+
+### Category
+Finally, add the category type so that cupidcr4wl will display results to their respective categories.
+The current categories are:
+```
+"dating, hook-up, and social"
+"adult video, photo, and camming"
+"escort"
+```
