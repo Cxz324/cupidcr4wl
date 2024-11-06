@@ -7,7 +7,7 @@ cupidcr4wl searches the following platforms:
 
 **Adult photo, video, and camming platforms | Dating, hook-up, and social platforms | Escort service platforms**
 
-Please see the [contributing](https://github.com/OSINTI4L/cupidcr4wl/blob/main/.github/CONTRIBUTING.md) section if you find cupidcr4wl is returning false positive/negative results so it can be fixed. You can also learn how to submit a site to add to the cupidcr4wl search list!
+Please see the [contributing](https://github.com/OSINTI4L/cupidcr4wl/blob/main/.github/CONTRIBUTING.md) section if you find cupidcr4wl is returning false positive/negative results so it can be fixed. You can also submit a site to add to the cupidcr4wl search list!
 
 
 The site list that cupidcr4wl utilizes for searching is updated for accuracy and added to regularly.
