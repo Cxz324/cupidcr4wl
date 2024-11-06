@@ -37,9 +37,11 @@ List this information in the ```"html snippets of account page"``` section.
 Multiple html snippets can be added to this section using commas:
 
 ```
-"followers",
-"subscripe",
-"profile"
+"check_text": [
+  "followers",
+  "subscripe",
+  "profile"
+],
 ```
 
 ### not_found_text
@@ -50,9 +52,11 @@ Inversely, not_found_text are html code snippets that are **NOT** found on a val
 
 Multiple html snippets can be added to this section using commas:
 ```
+"not_found_text": [
 "404",
 "page not found",
 "sorry that profile doesn't exist"
+],
 ```
 
 You can see examples of html parsed code snippets used for the purposes of ```check_text``` and ```not_found_text``` in the [websites.json](https://github.com/OSINTI4L/cupidcr4wl/blob/main/websites.json) file.
