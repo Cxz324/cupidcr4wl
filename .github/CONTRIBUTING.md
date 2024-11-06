@@ -16,7 +16,7 @@ There are two main ways you can contribute platforms to add to the cupidcr4wl se
 </div>
   
 ## The easy way:
-Utilize the [issues](https://github.com/OSINTI4L/cupidcr4wl/issues) tab to fill out and submit the information. I will then do all the heavy lifting of checking that the platform can be crawled by cupidcr4wl, check for accuracy, format the platform information into the websites.json file, and fix false positives/negatives (if that's what you are submitting).
+Utilize the [issues](https://github.com/OSINTI4L/cupidcr4wl/issues) tab to fill out and submit the information. I will then do all the heavy lifting of checking that the platform can be crawled by cupidcr4wl, check for accuracy, format the platform information into the websites.json file, and fix false positives/negatives (if that's what you're submitting).
 
 ## The hard way:
 Utilize a pull request to directly submit code to the [websites.json file](https://github.com/OSINTI4L/cupidcr4wl/blob/main/websites.json).
