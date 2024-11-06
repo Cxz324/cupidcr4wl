@@ -2,11 +2,17 @@
   
 # 🌟 Thank you for taking the time to contribute! 🌟
 
->**NOTE:** Not all platforms are able to be crawled by cupidcr4wl. Some platforms may produce html code that is identical accross different pages, thus the changes being rendered via Javascript. These pages are unable to be crawled by cupidcr4wl code. If you are contributing via a pull request, please test the site prior to creating the pull request for false positives/negatives. This can be done by searching a random string of characters "safgdh543g24" and a known good account name "john". The random string of characters should return no results and the known good account should be listed. You can also use ```--debug``` mode to receive more detail about what is *actually* happening in cupidcr4wls' code during a search.
-
-There are two main ways you can contribute platforms to add to the cupidcr4wl search list:
 </div>
 
+>**NOTE:** Not all platforms are able to be crawled by cupidcr4wl. Some platforms may produce html code that is identical accross different pages, thus the changes being rendered via Javascript. These pages are unable to be crawled by cupidcr4wl code.
+>
+>If you are contributing via a pull request, please test the site for false positives/negatives prior to creating the pull request. This can be done by searching a random string of characters "safgdh543g24" and a known good account name "john" with cupidcr4wl after you have added the entry to the websites.json file. The random string of characters should return no results and the known good account should be listed. You can also use ```--debug``` mode to receive more detail about the search results.
+
+<div align="center">
+  
+There are two main ways you can contribute platforms to add to the cupidcr4wl search list:
+</div>
+  
 ## The easy way:
 Utilize the [issues](https://github.com/OSINTI4L/cupidcr4wl/issues) tab to fill out and submit the information. I will then do all the heavy lifting of checking that the platform can be crawled by cupidcr4wls' current code, check for accuracy, and format the platform information into the websites.json file.
 
