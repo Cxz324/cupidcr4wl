@@ -8,7 +8,7 @@ There are two main ways you can contribute sites to add to the cupidcr4wl search
 >**NOTE: DO NOT** submit a site that hosts illegal content to be added to cupidcr4wl, it will be ignored and removed!
   
 ## The easy way:
-Utilize the [issues](https://github.com/OSINTI4L/cupidcr4wl/issues) tab to fill out and submit the information. I will then do all the heavy lifting of checking that the platform can be crawled by cupidcr4wl, check for accuracy, format the platform information into the websites.json file.
+Utilize the [issues](https://github.com/OSINTI4L/cupidcr4wl/issues) tab to fill out and submit the information. I will then do all the heavy lifting of checking that the platform can be crawled by cupidcr4wl, check for accuracy, and format the platform information into the websites.json file.
 
 The reporting of a false a positive/negative can also be submitted in this manner.
 
