@@ -2,6 +2,6 @@
 
 # cupidcr4wl
 
-![demogif](https://github.com/user-attachments/assets/4148992e-b468-4cfd-994a-d44dd27fcd36)
+![demogifcomp](https://github.com/user-attachments/assets/e2853512-6fae-4b01-a173-b25995a2de69)
 
 </div>
