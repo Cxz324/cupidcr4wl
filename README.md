@@ -69,7 +69,7 @@ options:
 
 &nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py --sites```
 
-6) To run cupidcr4wl in debug mode to test false positives/negatives:
+6) To run cupidcr4wl in debug mode to test for false positives/negatives:
 
 &nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py -u username --debug```
 
