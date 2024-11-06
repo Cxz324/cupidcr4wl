@@ -5,7 +5,7 @@ cupidcr4wl is an Open-Source Intelligence username search tool that crawls adult
 
 **Adult photo, video, and camming platforms | Dating, hook-up, and social platforms | Escort service platforms**
 
-If you discovered certain platforms are returning false positives or false negatives, please submit the information in the [issues](https://github.com/OSINTI4L/cupidcr4wl/issues) tab so it can be fixed.
+If you discover certain platforms are returning false positives/negatives, please submit the information in the [issues](https://github.com/OSINTI4L/cupidcr4wl/issues) tab so it can be fixed.
 
 The site list that cupidcr4wl utilizes for searching is updated for accuracy and added to regularly.
 
