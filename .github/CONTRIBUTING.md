@@ -2,7 +2,7 @@
   
 # 🌟 Thank you for taking the time to contribute! 🌟
 
->**NOTE:** Not all platforms are able to be crawled by cupidcr4wl. Some platforms may produce html code that is identical accross different pages, thus the changes being rendered via Javascript. These pages are unable to be crawled by cupidcr4wl code.
+>**NOTE:** Not all platforms are able to be crawled by cupidcr4wl. Some platforms may produce html code that is identical accross different pages, thus the changes being rendered via Javascript. These pages are unable to be crawled by cupidcr4wl code. If you are contributing via a pull request, please test the site prior to creating the pull request for false positives/negatives. This can be done by searching a random string of characters "safgdh543g24" and a known good account name "john". The random string of characters should return no results and the known good account should be listed. You can also use ```--debug``` mode to receive more detail about what is *actually* happening in cupidcr4wls' code during a search.
 
 There are two main ways you can contribute platforms to add to the cupidcr4wl search list:
 </div>
@@ -44,7 +44,7 @@ Enter the URL path to an account or search:
 The ```check_text``` and ```not_found_text``` feature in cupidcr4wl parses the html of the pages it searches to look for specific html code snippets present on a valid account page. This helps with the accuracy of the tool. To parse html code,
 1. Go to a valid account page.
 2. Right click > View Page Source.
-3. Parse and list html code that is present **ONLY** on a **valid** account page and not a non-valid account page (spoken about next).
+3. Parse and list html code that is present **ONLY** on a **VALID** account page and not a non-valid account page (spoken about next).
 
 List this information in the ```"html snippets of account page"``` section.
 
