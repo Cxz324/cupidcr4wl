@@ -11,7 +11,7 @@ The site list that cupidcr4wl utilizes for searching is updated for accuracy and
 
 cupidcr4wl **will** search and return results for platforms that host content for mature adult audiences. You are expected to use this tool in accordance with the laws and regulations in your respective location.
 
-## [Installation](#installation) | [Usage](#usage)
+## [Installation](#installation) | [Usage](#usage) | [Contributing](https://github.com/OSINTI4L/cupidcr4wl/blob/main/.github/CONTRIBUTING.md)
 
 ![demogifcomp](https://github.com/user-attachments/assets/e2853512-6fae-4b01-a173-b25995a2de69)
 
