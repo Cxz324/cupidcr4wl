@@ -6,7 +6,7 @@
 
 >**NOTE:** Not all platforms are able to be crawled by cupidcr4wl. Some platforms may produce html code that is identical accross different pages, thus the changes being rendered via Javascript. These pages are unable to be crawled by cupidcr4wl code.
 >
->IF YOU ARE CONTRIBUTING VIA A PULL REQUEST, please test the site for false positives/negatives prior to creating the pull request. This can be done by searching a random string of characters "safgdh543g24" and a known good account name "john" with cupidcr4wl after you have added the entry to the websites.json file. The random string of characters should return no results and the known good account should be listed. You can also use ```--debug``` mode to receive more detail about the search results.
+>IF YOU ARE CONTRIBUTING VIA A PULL REQUEST, please test the site for false positives/negatives prior to creating the pull request. This can be done by searching a random string of characters "safgdh543g24" and a known good account name "john" with cupidcr4wl after you have added the entry to the websites.json file. The random string of characters should return no results and the known good account should be listed as account found (or possibly account found). You can also use ```--debug``` mode to receive more technical detail about the search results (shows what responses codes and ```check_text``` ```not_found_text```).
 
 <div align="center">
 
@@ -16,7 +16,7 @@ There are two main ways you can contribute platforms to add to the cupidcr4wl se
 </div>
   
 ## The easy way:
-Utilize the [issues](https://github.com/OSINTI4L/cupidcr4wl/issues) tab to fill out and submit the information. I will then do all the heavy lifting of checking that the platform can be crawled by cupidcr4wls' current code, check for accuracy, and format the platform information into the websites.json file.
+Utilize the [issues](https://github.com/OSINTI4L/cupidcr4wl/issues) tab to fill out and submit the information. I will then do all the heavy lifting of checking that the platform can be crawled by cupidcr4wl, check for accuracy, format the platform information into the websites.json file, and fix false positives (if that's what you are submitting).
 
 ## The hard way:
 Utilize a pull request to directly submit code to the [websites.json file](https://github.com/OSINTI4L/cupidcr4wl/blob/main/websites.json).
