@@ -6,7 +6,7 @@
 
 >**NOTE:** Not all platforms are able to be crawled by cupidcr4wl. Some platforms may produce html code that is identical accross different pages, thus the changes being rendered via Javascript. These pages are unable to be crawled by cupidcr4wl code.
 >
->If you are contributing via a pull request, please test the site for false positives/negatives prior to creating the pull request. This can be done by searching a random string of characters "safgdh543g24" and a known good account name "john" with cupidcr4wl after you have added the entry to the websites.json file. The random string of characters should return no results and the known good account should be listed. You can also use ```--debug``` mode to receive more detail about the search results.
+>IF YOU ARE CONTRIBUTING VIA A PULL REQUEST, please test the site for false positives/negatives prior to creating the pull request. This can be done by searching a random string of characters "safgdh543g24" and a known good account name "john" with cupidcr4wl after you have added the entry to the websites.json file. The random string of characters should return no results and the known good account should be listed. You can also use ```--debug``` mode to receive more detail about the search results.
 
 <div align="center">
   
