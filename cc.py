@@ -221,7 +221,7 @@ def main():
 
     # Check if no usernames are provided and print usage information
     if args.u is None and not args.sites:
-        console.print("[bold red]Error: Username and arguments required see -h or --help.[/bold red]")
+        console.print("[bold red]Error: Username and arguments required, see -h or --help.[/bold red]")
         return
 
     user_agents = load_user_agents('user_agents.txt')  # Load user agents from file
