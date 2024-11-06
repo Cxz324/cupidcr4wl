@@ -1,17 +1,11 @@
 <div align="center">
   
 # 🌟 Thank you for taking the time to contribute! 🌟
-
-</div>
-
->**NOTE:** Not all platforms are able to be crawled by cupidcr4wl.
->
->IF YOU ARE CONTRIBUTING VIA A PULL REQUEST, please test the site for false positives/negatives prior to creating the pull request. This can be done by searching a random string of characters "safgdh543g24" and a known good account name "john" with cupidcr4wl after you have added the entry to the websites.json file. The random string of characters should return no results and the known good account should be listed as account found (or possible account found). You can also use ```--debug``` mode to receive more technical detail about the search results (shows HTTTP responses codes and lists ```check_text``` ```not_found_text``` results).
-
-<div align="center">
   
-There are two main ways you can contribute platforms to add to the cupidcr4wl search list or report false positive/negative results:
+There are two main ways you can contribute sites to add to the cupidcr4wl search list or report false positive/negative results:
 </div>
+
+>**NOTE: DO NOT** submit a site that hosts illegal content to be added to cupidcr4wl, it will be ignored and removed!
   
 ## The easy way:
 Utilize the [issues](https://github.com/OSINTI4L/cupidcr4wl/issues) tab to fill out and submit the information. I will then do all the heavy lifting of checking that the platform can be crawled by cupidcr4wl, check for accuracy, format the platform information into the websites.json file, and fix false positives/negatives (if that's what you're submitting).
@@ -88,10 +82,12 @@ It is important that the ```check_text``` and ```not_found_text``` are accurate 
 3. Find unique html code snippets and use CTRL+F to ensure they are unique to each respective page by searching the snippets against the opposite pages' source code.
 
 ### Category
-Finally, add the category type so that cupidcr4wl will display results to their respective categories.
+Add the category type so that cupidcr4wl will display results to their respective categories.
 The current categories are:
 ```
 "dating, hook-up, and social"
 "adult video, photo, and camming"
 "escort"
 ```
+### Test for accuracy
+Testing can be done by searching a random string of characters "safgdh543g24" and a known good account name "john" with cupidcr4wl after you have added the entry to the websites.json file. The random string of characters should return no results and the known good account should be listed as account found (or possible account found). You can also use ```--debug``` mode to receive more technical detail about the search results (shows HTTTP responses codes and lists ```check_text``` ```not_found_text``` results).
