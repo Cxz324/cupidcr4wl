@@ -5,9 +5,9 @@ cupidcr4wl is an Open-Source Intelligence username search tool that crawls adult
 
 **Adult photo, video, and camming platforms | Dating, hook-up, and social platforms | Escort service platforms**
 
-The site list that cupidcr4wl searches is updated and added to regularly.
+The site list that cupidcr4wl utilizes for searching is updated for accuracy and added to regularly.
 
-**WARNING** cupidcr4wl will search and return results for platforms that are designed for mature adult audiences. You are expected to use this tool in accordance with the laws and regulations in your respective location.
+⚠️**WARNING**⚠️ cupidcr4wl **will** search and return results for platforms that host content for mature adult audiences. ⚠️**WARNING**⚠️ You are expected to use this tool in accordance with the laws and regulations in your respective location.
 
 ## [Installation](#installation) | [Usage](#usage)
 
