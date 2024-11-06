@@ -313,7 +313,10 @@
                 "Reddit": {
             "url": "https://www.reddit.com/user/{username}/",
             "check_text": [
-                "follow"
+                "follow",
+                "posts",
+                "karma",
+                "cake day"
             ],
               "not_found_text": [
                 "sorry, nobody on reddit goes by that name."
