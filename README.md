@@ -34,7 +34,7 @@ cupidcr4wl **will** search and return results for platforms that host content fo
 &nbsp;&nbsp;&nbsp;&nbsp;```pip install -r requirements.txt```
 
 ## Usage
-1) To see all cupidcr4wl command line argument options:
+1) To see all cupidcr4wl command line arguments:
 
 &nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py -h``` or ```python3 cc.py --help```
 
