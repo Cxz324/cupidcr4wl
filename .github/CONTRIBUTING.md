@@ -8,6 +8,8 @@
 >
 >IF YOU ARE CONTRIBUTING VIA A PULL REQUEST, please test the site for false positives/negatives prior to creating the pull request. This can be done by searching a random string of characters "safgdh543g24" and a known good account name "john" with cupidcr4wl after you have added the entry to the websites.json file. The random string of characters should return no results and the known good account should be listed. You can also use ```--debug``` mode to receive more detail about the search results.
 
+You can also use these methods for submitting information to correct false positives/negatives.
+
 <div align="center">
   
 There are two main ways you can contribute platforms to add to the cupidcr4wl search list:
