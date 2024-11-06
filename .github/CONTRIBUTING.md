@@ -6,13 +6,11 @@
 
 >**NOTE:** Not all platforms are able to be crawled by cupidcr4wl.
 >
->IF YOU ARE CONTRIBUTING VIA A PULL REQUEST, please test the site for false positives/negatives prior to creating the pull request. This can be done by searching a random string of characters "safgdh543g24" and a known good account name "john" with cupidcr4wl after you have added the entry to the websites.json file. The random string of characters should return no results and the known good account should be listed as account found (or possibly account found). You can also use ```--debug``` mode to receive more technical detail about the search results (shows what responses codes and ```check_text``` ```not_found_text```).
+>IF YOU ARE CONTRIBUTING VIA A PULL REQUEST, please test the site for false positives/negatives prior to creating the pull request. This can be done by searching a random string of characters "safgdh543g24" and a known good account name "john" with cupidcr4wl after you have added the entry to the websites.json file. The random string of characters should return no results and the known good account should be listed as account found (or possible account found). You can also use ```--debug``` mode to receive more technical detail about the search results (shows HTTTP responses codes and lists ```check_text``` ```not_found_text``` results).
 
 <div align="center">
-
-You can also use these methods for submitting information to correct any false positive/negative results you may be experiencing.
   
-There are two main ways you can contribute platforms to add to the cupidcr4wl search list:
+There are two main ways you can contribute platforms to add to the cupidcr4wl search list or report false positive/negative results:
 </div>
   
 ## The easy way:
@@ -49,12 +47,12 @@ Enter the URL path to an account or search:
 ```"url": "https://www.example.com/path/to/{username}",```
 
 ### check_text
-The ```check_text``` and ```not_found_text``` feature in cupidcr4wl parses the html of the pages it searches to look for specific html code snippets present on a valid account page. This helps with the accuracy of the tool. To parse html code,
+The ```check_text``` feature in cupidcr4wl parses the html of the pages it searches to look for specific html code snippets present on a valid account page. This helps with the accuracy of the tool. To parse html code:
 1. Go to a valid account page.
 2. Right click > View Page Source.
-3. Parse and list html code that is present **ONLY** on a **VALID** account page and not a non-valid account page (spoken about next).
+3. Parse and list html code snippets that are present **ONLY** on a **VALID** account page and not a non-valid account page (spoken about next).
 
-List this information in the ```"html snippets of account page"``` section.
+List this information in the ```"check_text": [``` section.
 
 Multiple html snippets can be added to this section using commas:
 
@@ -67,10 +65,11 @@ Multiple html snippets can be added to this section using commas:
 ```
 
 ### not_found_text
-Inversely, not_found_text are html code snippets that are **NOT** found on a valid account page.
-1. Find an invalid account page by adding a string of random characters in the username area of the url e.g., ```https://example.com/sdf4657u66h4g3```.
-2. You will be redirected to an "account not found page". This could be a redirection back to the landing page of the platform or a dedicated "404/page not found/we're sorry" page.
-3. Parse and list html code that is present **ONLY** on a **NON-VALID** account page.
+Inversely, not_found_text are html code snippets that are found on a **NON-VALID** account page.
+1. Find an invalid account page by adding a string of random characters in the username area of the url e.g., ```https://example.com/user/sdf4657u66h4g3```.
+2. You will be redirected to an "account not found page", 404 page, site landing page, or similar.
+3. Right click > View Page Source.
+4. Parse and list html code that is present **ONLY** on the **NON-VALID** account page.
 
 Multiple html snippets can be added to this section using commas:
 ```
@@ -82,6 +81,11 @@ Multiple html snippets can be added to this section using commas:
 ```
 
 You can see examples of html parsed code snippets used for the purposes of ```check_text``` and ```not_found_text``` in the [websites.json](https://github.com/OSINTI4L/cupidcr4wl/blob/main/websites.json) file.
+
+It is important that the ```check_text``` and ```not_found_text``` are accurate as to ensure good results by cupidcr4wl. My typical workflow to ensure this is:
+1. Open the page source code of a known good account.
+2. Open the page source code of an invalid account page in a second tab.
+3. Find unique html code snippets and use ctrl + f to ensure they are unique to each respective page (by searching the snippets against the opposite pages' source code).
 
 ### Category
 Finally, add the category type so that cupidcr4wl will display results to their respective categories.
