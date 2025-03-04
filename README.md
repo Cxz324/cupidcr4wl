@@ -81,3 +81,4 @@ options:
 &nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py -u username --debug```
 
 &nbsp;&nbsp;&nbsp;&nbsp;(More can be read on this mode in the wiki documentation)
+G
